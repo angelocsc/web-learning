@@ -10,11 +10,34 @@ li.edit span{
 li.edit input{
 	display: initial;
 }
-
+.special{
+	color: blue;
+	display: block;
+}
 </style>
 <h1>My first web</h1>
+<div class = "container">
+	<h1>Let's have fun</h1>
+	<button class = "button" id = "btn1" data-panel = "panel1">button1</button>
+	<button class = "button" id = "btn2" data-panel = "panel2">button2</button>
+	<button class = "button" id = "btn3" data-panel = "panel3">button3</button>
+	<button class = "button" id = "btn4" data-panel = "panel4">button4</button>
+</div>
+
+<div class = "row">
+	<div id = "panel1">Panel1
+	</div>
+	<div id = "panel2">Panel2
+	</div>
+	<div id = "panel3">Panel3
+	</div>
+	<div id = "panel4">Panel4
+	</div>
+</div>
 <p>
-	Enter your Name:<input id = "Name"></input>
+	<div id = "input_form">
+		Enter your Name:<input id = "Name"></input>
+	</div>
 	<input type = "button" value = "finish" id = "myButton"></input>
 	<h4 id = "showName"></h4>
 
